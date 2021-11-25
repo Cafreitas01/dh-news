@@ -1,12 +1,30 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-};
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
 
-p{
-    font-size: 14px;
-    text-align: justify;
-};
+#title{
+    margin-bottom: 0;
+    color:#ec183f;
+    font-size: 40px;
+}
 
-h2{
-    font-style: italic;
-};
+header > p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+section img{
+    width: 100%;
+}
+
+main{
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 40px;
+}
+
+div{
+    width:  fit-content;
+    margin: 0 auto;
+}
